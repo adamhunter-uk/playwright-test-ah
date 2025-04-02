@@ -1,7 +1,8 @@
 # Setup instructions
-  - Install .NET and Playwright
-  - 
 
+1. Clone the repo:
+   - git clone https://github.com/your-username/playwright-automation.git
+   - cd playwright-automation
 
 # Test execution commands
   - To run one of the tests, User Registration Flow type in the following commands into cmd prompt (replacing "specFile" with the name of the file you want):  npx playwright test specFile
