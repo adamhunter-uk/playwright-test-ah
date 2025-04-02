@@ -1,7 +1,7 @@
 # Setup instructions
 
 1. Clone the repo:
-   - git clone https://github.com/your-username/playwright-automation.git
+   - git clone https://github.com/adamhunter-uk/playwright-automation.git
    - cd playwright-automation
 
 # Test execution commands
