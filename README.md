@@ -19,7 +19,7 @@ Example: npx playwright test userRegFlow.spec.ts
 - The folder structure is split into 2 seperate folders to distinguise which are the test elements and which are the configurations to help build the foundations.
 - I've added extra comments to each step withing the tests explaining what these steps are doing.
 
-# Challenges encountered** and how you solved them
+# Challenges encountered
 - Most of the challenges I encountered was mainly time, as the userRegFlow.spec.ts was fleshed out a lot more than the other tests but I felt as long as the test worked, improvements can be added later on.
 - I could not get the filters to work on the products page, so I added a comment stating it may be a bug
 - When the tests failed, it was difficult to figure out what I was doing wrong, even with the playwright.config in place. This was mainly down to typos on my behalf and using the correct steps to navigate/confirm text on the page.
