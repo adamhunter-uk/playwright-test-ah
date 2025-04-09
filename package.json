@@ -1,15 +1,20 @@
 {
-  "name": "playwright-test",
+  "name": "playwright-test-ah",
   "version": "1.0.0",
-  "description": "1. Clone the repo:\r    - git clone https://github.com/adamhunter-uk/playwright-automation.git\r    - cd playwright-automation",
+  "description": "Playwright automation test by Adam Hunter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamhunter-uk/playwright-test-ah.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Adam Hunter",
   "license": "ISC",
-  "dependencies": {
-    "playwright": "^1.51.1"
-  }
+  "bugs": {
+    "url": "https://github.com/adamhunter-uk/playwright-test-ah/issues"
+  },
+  "homepage": "https://github.com/adamhunter-uk/playwright-test-ah#readme"
 }
