@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/adamhunter-uk/playwright-test-ah/issues"
   },
-  "homepage": "https://github.com/adamhunter-uk/playwright-test-ah#readme"
+  "homepage": "https://github.com/adamhunter-uk/playwright-test-ah#readme",
+  "devDependencies": {
+    "playwright": "^1.51.1"
+  }
 }
