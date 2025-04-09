@@ -14,7 +14,7 @@ Follow these steps to clone the project, install dependencies, and run tests.
 2. Run the following commands:
 
 git clone https://github.com/adamhunter-uk/playwright-test-ah.git
-cd playwright-test-ah
+cd Playwright-test\Tests\
 
 # Step 2: Install Dependencies
 Before running any tests, you need to install the required packages:
