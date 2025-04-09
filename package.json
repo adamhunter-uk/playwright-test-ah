@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/adamhunter-uk/playwright-test-ah#readme",
   "devDependencies": {
+    "@playwright/test": "^1.51.1",
     "playwright": "^1.51.1"
   }
 }
