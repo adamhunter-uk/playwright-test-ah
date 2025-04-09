@@ -1,16 +1,46 @@
 # Setup instructions
 
-1. Clone the repo:
-   - git clone https://github.com/adamhunter-uk/playwright-automation.git
-   - cd playwright-automation
+# Playwright Test Project
 
-# Test execution commands
-  - To run one of the tests, User Registration Flow type in the following commands into cmd prompt (replacing "specFile" with the name of the file you want):  npx playwright test specFile
+This repository contains automated tests using [Playwright](https://playwright.dev/) for end-to-end testing.
 
-Example: npx playwright test userRegFlow.spec.ts
+# Getting Started
 
-  Add the following to you test for more configuration:
-  --headed = watch the test live
+Follow these steps to clone the project, install dependencies, and run tests.
+
+# Step 1: Clone the Repository
+
+1. Open your terminal or command prompt.
+2. Run the following commands:
+
+git clone https://github.com/adamhunter-uk/playwright-test-ah.git
+cd playwright-test-ah
+
+# Step 2: Install Dependencies
+Before running any tests, you need to install the required packages:
+
+npm install
+
+# Step 3: Run a Specific Test
+To run a specific test (e.g., the User Registration Flow), use this command:
+
+npx playwright test <specFile>
+Replace <specFile> with the actual filename of the test, such as:
+
+# example: 
+npx playwright test userRegFlow.spec.ts
+
+# Step 4: Run all Test files at once
+npx playwright test
+
+# Optional: Run Tests in Headed Mode and Debug mode
+
+Headed mode:
+npx playwright test userRegFlow.spec.ts --headed
+
+Debug mode
+npx playwright test userRegFlow.spec.ts --debug
+
 
 # Explanation of your test architecture and patterns
 - - When building the foundation of the tests, I started off simple by creating the each test with basic commands and no configuration until test would pass initial tests. Once they passed and I was confident they did what was being asked, I added in a loginPage.ts config file to controls certain checks/tests being carried out that would be used multiple times on the other tests (e.g accepting the annoying consent pop up on landing page and navigating to the login/sign up page).
